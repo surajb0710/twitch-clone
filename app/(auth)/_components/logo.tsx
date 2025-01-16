@@ -9,7 +9,6 @@ const font = Poppins({
 });
 
 export const Logo = () => {
-  console.log('Font Class Name:', font.className);
   return (
     <div className="flex flex-col items-center gap-y-4">
       <div className="bg-white rounded-full p-4">
